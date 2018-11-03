@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u1u5)2iur-g-6kyz522a3eg5q_@3c0d!5+3$=a72hu0sq8c$31'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 #host do azure
 ALLOWED_HOSTS = ['teste-django-milagre.azurewebsites.net','127.0.0.1','localhost']
